@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project_title: MyString
+  course: MyString
+  date_due: 2015-01-28 04:19:15
+  estimated_time: 1
+  notes: MyText
+
+two:
+  project_title: MyString
+  course: MyString
+  date_due: 2015-01-28 04:19:15
+  estimated_time: 1
+  notes: MyText
