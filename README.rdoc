@@ -1,12 +1,10 @@
-== README
+== TimeTrack Readme
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A list application to keep track of time spent on projects and tasks written with Ruby on Rails.
 
-Things you may want to cover:
-
-* Ruby version
-
+* Ruby version 2.1.5
+* Rails version 4.2.0
+    
 * System dependencies
 
 * Configuration
