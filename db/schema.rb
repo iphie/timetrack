@@ -13,8 +13,10 @@
 
 ActiveRecord::Schema.define(version: 20150129202359) do
 
-  create_table "projects", force: :cascade do |t|
-    t.integer  "project_id",     null: false
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "projects", primary_key: "project_id", force: :cascade do |t|
     t.string   "project_title"
     t.string   "course"
     t.datetime "date_due"
