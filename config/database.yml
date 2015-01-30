@@ -1,26 +1,26 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: timetrack_development
-  host: localhost
+  database: d258ctai8duq9b
+  host: ec2-23-21-235-249.compute-1.amazonaws.com
   pool: 5
-  username: postgres
-  password: password
+  username: wkblgqrcneuzhc
+  password: PINd2fklVRrskhAiJ6bwnCttKE
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: timetrack_test
-  host: localhost
+  database: d258ctai8duq9b
+  host: ec2-23-21-235-249.compute-1.amazonaws.com
   pool: 5
-  username: postgres
-  password: password
+  username: wkblgqrcneuzhc
+  password: PINd2fklVRrskhAiJ6bwnCttKE
   
 production: 
   adapter: postgresql
   encoding: unicode
-  database: timetrack
-  host: localhost
+  database: d258ctai8duq9b
+  host: ec2-23-21-235-249.compute-1.amazonaws.com
   pool: 5
-  username: postgres
-  password: password
+  username: wkblgqrcneuzhc
+  password: PINd2fklVRrskhAiJ6bwnCttKE

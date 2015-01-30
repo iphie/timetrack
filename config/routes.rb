@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
+
+
   root 'pages#home'
   resources :projects
   resources :tasks
+  resources :works
   get 'reports', to: 'pages#reports'
   
   # The priority is based upon order of creation: first created -> highest priority.

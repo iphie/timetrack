@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @work.project %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @work.date %>
+</p>
+
+<p>
+  <strong>Time spent:</strong>
+  <%= @work.time_spent %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @work.notes %>
+</p>
+
+<%= link_to 'Edit', edit_work_path(@work) %> |
+<%= link_to 'Back', works_path %>

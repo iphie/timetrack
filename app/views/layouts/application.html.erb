@@ -6,7 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<header>
 <nav>
   <ul>
     <li><%= link_to "Home", root_path %></li>
@@ -15,17 +15,19 @@
         <ul>
           <li><%= link_to "Project", new_project_path %></li>
           <li><%= link_to "Task", new_task_path %></li>
-          <li><%= link_to "Time", "#" %> - Not Made Yet</li>
+          <li><%= link_to "Time", "new_work_path" %></li>
         </ul>
     </li>
     <li><%= link_to "Projects", projects_path %></li>
     <li><%= link_to "Tasks", tasks_path %></li>
+    <li><%= link_to "Work Done", works_path %></li>
     <li><%= link_to "Reports", reports_path %></li>
   </ul>
 </nav>
-
+</header>
+<body>
 <%= yield %>
-
-<!-- <footer>Created with love by Morgan Schultz</footer> -->
 </body>
+
+<footer>Created with love by Morgan Schultz</footer>
 </html>
